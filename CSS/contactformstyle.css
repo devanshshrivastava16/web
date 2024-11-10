@@ -1,0 +1,68 @@
+body{
+    color: #40514e;
+    margin: 0px;
+    text-align: center;
+    font-family: "Merriweather", serif; 
+    background-image: url("/images/contact\ form\ bg.jpg");
+}
+.contactbox {
+    background-color: #48CFCB;
+    padding: 40px 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin: 50px auto; 
+}
+
+form h2 {
+    color: #424242;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+form label {
+    color: #424242;
+    font-weight: bold;
+    margin-top: 15px;
+    display: block;
+}
+
+form input[type="text"],
+form input[type="email"],
+form button,
+form textarea {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin: 10px 0 20px 0;
+    border: 1px solid #229799;
+    border-radius: 8px;
+    background-color: #F5F5F5;
+    font-size: 16px;
+    color: #424242;
+    box-sizing: border-box;
+    outline: none;
+    transition: border-color 0.3s;
+}
+form button:hover{
+  background-color: #424242;
+  color: white;
+}
+form textarea {
+    resize: none;
+}
+
+form input {
+    background-color: #229799;
+    color: #F5F5F5;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+    width: 100%;
+    transition: background-color 0.3s;
+}
